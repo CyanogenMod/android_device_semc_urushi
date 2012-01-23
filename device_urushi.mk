@@ -7,9 +7,9 @@ $(call inherit-product-if-exists, vendor/semc/urushi/urushi-vendor.mk)
 
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := Xperia Ray
+PRODUCT_NAME := urushi
 PRODUCT_DEVICE := urushi
-PRODUCT_MODEL := ST18i
+PRODUCT_MODEL := urushi
 
 -include device/semc/mogami-common/mogami.mk
 
