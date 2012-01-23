@@ -11,7 +11,7 @@ usr/keychars/us104-keyboard.kcm.bin
 usr/keylayout/us104-keyboard.kl
 usr/keylayout/usb_mouse.kl
 
-## RIL related stuff 
+## RIL related stuff
 lib/libril.so
 bin/port-bridge
 bin/qmuxd
@@ -31,7 +31,6 @@ lib/libpbmlib.so
 lib/libqmi.so
 lib/libqueue.so
 lib/libuim.so
-lib/libreference-ril.so
 lib/libril-qc-1.so
 lib/libwms.so
 lib/libwmsts.so
