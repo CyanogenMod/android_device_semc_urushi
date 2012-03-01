@@ -11,7 +11,7 @@ usr/keychars/us104-keyboard.kcm.bin
 usr/keylayout/us104-keyboard.kl
 usr/keylayout/usb_mouse.kl
 
-## RIL related stuff
+## RIL related stuff 
 lib/libril.so
 bin/port-bridge
 bin/qmuxd
@@ -31,6 +31,7 @@ lib/libpbmlib.so
 lib/libqmi.so
 lib/libqueue.so
 lib/libuim.so
+lib/libreference-ril.so
 lib/libril-qc-1.so
 lib/libwms.so
 lib/libwmsts.so
@@ -101,6 +102,7 @@ etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
 bin/nvimport
+bin/hciattach
 etc/init.qcom.bt.sh
 etc/wifi/tiwlan.ini
 etc/wifi/tiwlan_firmware.bin
@@ -119,7 +121,6 @@ lib/libaudioalsa.so
 etc/als_curve.conf
 etc/vold.fstab
 etc/sensors.conf
-lib/hw/sensors.default.so
 bin/bq275xx_fwloader
 bin/akmd8975
 bin/chargemon
