@@ -39,6 +39,11 @@ echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 dev=/sys/devices/i2c-0/0-0040/leds/
 echo 0,0,0,0 > $dev/lcd-backlight/als/params  #[gain],[filter_up],[filter_down],[offset]
 echo 0 > $dev/lcd-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/button-backlight-rgb1/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/button-backlight-rgb2/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/red/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/green/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/blue/als/enable  #Sensor on/off. 1 = on, reg 90h
 
 # TI BQ275xx firmware loader
 bq275xx_fwloader
