@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_urushi.mk 
+    $(LOCAL_DIR)/full_urushi.mk
