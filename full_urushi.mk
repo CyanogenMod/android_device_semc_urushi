@@ -15,5 +15,5 @@ $(call inherit-product, device/semc/urushi/device_urushi.mk)
 PRODUCT_NAME := full_urushi
 PRODUCT_DEVICE := urushi
 PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Ray
+PRODUCT_MANUFACTURER := SEMC
+PRODUCT_MODEL := ST18i
