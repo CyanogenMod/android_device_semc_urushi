@@ -8,6 +8,10 @@
     "target_path": "device/semc/mogami-common"
   },
   {
+    "repository": "android_hardware_sony_DASH",
+    "target_path": "hardware/somc/dash"
+ },
+  {
    "repository": "semc-kernel-msm7x30",
    "target_path": "kernel/semc/msm7x30",
    "branch": "ics"
